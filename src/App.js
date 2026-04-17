@@ -9,7 +9,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [msg, setMsg] = useState("");
 
-  const API = "http://localhost:5000";
+  const API = "https://middleware-iez1.onrender.com";
 
   const signup = async () => {
     try {
